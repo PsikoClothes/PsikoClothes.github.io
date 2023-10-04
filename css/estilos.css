@@ -199,7 +199,6 @@ body {
     background-size: 36px 36px;
     background-position: 0 0,18px 18px;
 overflow: hidden;
-display: none;
 }
 
 .knowledge__container{
@@ -216,7 +215,7 @@ display: none;
 .knowledge__paragraph{
     line-height: 1.7;
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
     color: aliceblue;
 }
@@ -228,6 +227,21 @@ display: none;
     width: 100%;
     display: block;
     margin-left: 120px;
+}
+
+.cta5{
+    display: inline-block;
+    background-color: #fff;
+    justify-self: center;
+    color: black;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600; 
+}
+.cta5:hover{
+    background-color:  rgba(128, 128, 128, 0.603);
 }
 
 /* Packs */
