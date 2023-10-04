@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --padding-container: 100px 0;
+    --color-title: aliceblue;
+}
+
+body {
+    font-family: 'Handjet', cursive;
+    background-color: black;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+/* Hero */
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 800px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    color: aliceblue;
+}
+.hero::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(../Imagenes/pixel.gif);
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
+    z-index: -1;
+}
+
+/* Nav */
+
+.nav {
+    --padding-container:0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav_img2 {
+    max-width: 350px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.nav__items{
+   list-style: none; 
+}
+.nav__title{
+    font-weight: 300;
+    font-size: 25px;
+    color: aliceblue;
+
+}
+.nav__link--menu{
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+.nav__links{
+    color: aliceblue;
+    font-size: 25px;
+    text-decoration: none;
+}
+.nav__links:hover{
+    color: blueviolet;
+}
+.nav__menu{
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+}
+.nav__img{
+    display: block;
+    width: 30px;
+}
+.nav__close{
+    display: var(--show, none);
+}
+
+/* Hero Container */
+
+.hero__container{
+    max-width: 800px;
+    display: grid;
+    --padding-container:0;
+    grid-auto-rows: max-content;
+    align-content: center;
+    gap: 1em;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.hero__title{
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+.hero__paragraph{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.hero__paragraph span{
+    color: rgb(34, 243, 173);
+}
+
+.cta{
+    display: inline-block;
+    background-color: blueviolet;
+    justify-self: center;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.cta:hover{
+    background-color: rgba(128, 128, 128, 0.603);
+}
+
+/* Ropa */
+
+.ropa{
+    background-color: aliceblue;
+}
+
+.subtitle{
+    text-align: center;
+    display: flex;
+    color: aliceblue;
+}
+
+.ropa__container{
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    gap: 1em;
+}
+
+.ropa__body{
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.ropa__body--show{
+    pointer-events: unset;
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.ropa__img{
+    width: 400px;
+    
+}
+
+.ropa__text{
+    max-width: 700px;
+}
+
+.ropa__review{
+    color: aliceblue;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.ropa__course{
+    color: blueviolet;
+    display: inline-block;
+}
+
+.btn1{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: blueviolet;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.btn1:hover{
+    background-color: aliceblue;
+    color: blueviolet;
+}
+
+.ropa__arrow{
+    width: 90%;
+    cursor: pointer;
+    align-items: center;
+}
+.ropa__arrow:hover{
+    width: 100%;
+}
