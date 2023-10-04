@@ -659,7 +659,7 @@ overflow: hidden;
 
     .knowledge{
         text-align: center;
-        display: none;
+        
     }
 
     .knowledge__container{
@@ -671,6 +671,7 @@ overflow: hidden;
     .knowledge__picture{
         grid-row: 1/2;
         justify-self: center;
+        margin-right: 250px;
     }
 
     .price{
@@ -724,6 +725,11 @@ overflow: hidden;
         font-size: 1.8rem;
     }
 
+    .knowledge{
+        display: none;
+    }
+    
+    
     .ropa{
         --padding-container: 60px;
     }
@@ -739,6 +745,85 @@ overflow: hidden;
 
     .ropa__course{
         margin-top: 30px;
+    }
+
+    .footer__title{
+        justify-self: start;
+        margin-bottom: 15px;
+    }
+
+    .nav--footer{
+        padding-bottom: 30px;
+    }
+    
+    .footer__inputs{
+        flex-wrap: wrap;
+    }
+
+    .footer__input{
+        flex-basis: 100%;
+        margin: 0;
+        margin-bottom: 16px;
+    }
+
+    .footer__submit{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 400px){
+    .hero__title{
+        font-size: 2rem;
+    }
+
+    .hero__paragraph{
+       font-size: 1rem; 
+    }
+    
+    .subtitle{
+        font-size: 1.8rem;
+    }
+
+    .knowledge{
+        display: none;
+    }
+    
+    
+    .ropa{
+        --padding-container: 60px;
+    }
+
+    .ropa__container{
+        grid-template-columns: 28px 1fr 28px;
+        gap: .9em;
+    }
+
+    .ropa__arrow{
+        width: 100%;
+        
+    }
+
+    .ropa__course{
+        margin-top: 30px;
+    }
+
+    .ropa__img{
+        width: 200px;
+        height: 200px;
+        margin-left: 30px;
+    }
+
+    .ropa__review{
+        display: none;
+    }
+
+    .btn1{
+        display: block;
+    }
+
+    .ropa__text{
+        display: none;
     }
 
     .footer__title{
