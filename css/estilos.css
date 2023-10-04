@@ -199,6 +199,7 @@ body {
     background-size: 36px 36px;
     background-position: 0 0,18px 18px;
 overflow: hidden;
+display: none;
 }
 
 .knowledge__container{
@@ -261,22 +262,22 @@ overflow: hidden;
     --color-items: blueviolet;
 }
 .price__element2{
-    background-color: blueviolet;
+    background-color: #e5e5f7;
     text-align: center;
     border-radius: 15px;
     width: 300px;
     padding: 65px;
     margin-top: -30px;
-    --color-plan: aliceblue;
-    --color-price: red;
-    --bg-cta: aliceblue;
+    --color-plan: blueviolet;
+    --color-price: black;
+    --bg-cta: blueviolet;
     --color-cta: black;
-    --color-items: aliceblue;
+    --color-items: blueviolet;
 }
 .pack__cta2{
-    color: black;
+    color: aliceblue;
     text-decoration: none;
-    background-color: aliceblue;
+    background-color: #009FA8;
     display: block;
     padding: 20px 0;
     border-radius: 10px;
@@ -286,7 +287,7 @@ overflow: hidden;
     box-shadow: 0 0 1px rgba(0, 0, 0, .5);
 }
 .pack__cta2:hover{
-    background-color: red;
+    background-color: blueviolet;
 }
 .price__element3{
     background-color: #e5e5f7;
