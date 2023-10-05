@@ -726,9 +726,7 @@ overflow: hidden;
         font-size: 1.8rem;
     }
 
-    .knowledge{
-        
-    }
+   
     
     
     .ropa{
@@ -779,7 +777,7 @@ overflow: hidden;
     }
 
     .hero__paragraph{
-       font-size: 1rem; 
+       display: none; 
     }
     
     .subtitle{
