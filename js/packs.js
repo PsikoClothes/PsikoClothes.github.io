@@ -1,7 +1,11 @@
 (function(){
-    const openButton = document.querySelector('.price__table');
+    const alerta1 = document.querySelector('.pack__cta');
+    const alerta2 = document.querySelector('.pack__cta2');
     
-    openButton.addEventListener('click', ()=>{
+    alerta1.addEventListener('click', ()=>{
+        alert(`Los packs no estan disponibles por el momento`);
+    });
+    alerta2.addEventListener('click', ()=>{
         alert(`Los packs no estan disponibles por el momento`);
     });
     

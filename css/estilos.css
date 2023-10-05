@@ -362,6 +362,7 @@ overflow: hidden;
 
 /* Ropa */
 
+
 .ropa{
     background-color: aliceblue;
 }
@@ -611,7 +612,7 @@ overflow: hidden;
 
 @media (max-width: 800px){
     .nav__menu{
-        display: block;
+        display: none;
     } 
     
     .nav__link--menu{
@@ -726,7 +727,7 @@ overflow: hidden;
     }
 
     .knowledge{
-        display: none;
+        
     }
     
     
@@ -786,7 +787,7 @@ overflow: hidden;
     }
 
     .knowledge{
-        display: none;
+        
     }
     
     
