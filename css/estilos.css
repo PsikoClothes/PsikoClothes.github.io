@@ -786,8 +786,8 @@ overflow: hidden;
         font-size: 1.8rem;
     }
 
-    .knowledge{
-        
+    .knowledge__paragraph{
+        display: none;
     }
     
     
