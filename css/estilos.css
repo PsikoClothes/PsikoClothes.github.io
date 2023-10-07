@@ -93,7 +93,7 @@ body {
 }
 
 .nav__input:checked + .nav__menu{
-    background-color: #63045685;
+    background-color: rgba(137, 43, 226, 0.363);
 }
 
 .nav__label, .nav__input{
@@ -628,7 +628,7 @@ overflow: hidden;
         position: fixed;
         top: 80px;
         bottom: 0;
-        background-color: #63045685;
+        background-color: rgba(137, 43, 226, 0.363);
         width: 100%;
         left: 0;
         display: flex;
