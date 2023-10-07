@@ -689,6 +689,10 @@ overflow: hidden;
         flex-wrap: wrap;
     }
 
+    .footer__title{
+        display: none;
+    }
+
     .nav--footer{
         width: 100%;
         justify-self: center;
