@@ -612,7 +612,7 @@ overflow: hidden;
 
 @media (max-width: 800px){
     .nav__menu{
-        display: none;
+        display: block;
     } 
     
     .nav__link--menu{
@@ -744,6 +744,88 @@ overflow: hidden;
 
     .ropa__course{
         margin-top: 30px;
+    }
+
+    .footer__title{
+        justify-self: start;
+        margin-bottom: 15px;
+    }
+
+    .nav--footer{
+        padding-bottom: 30px;
+    }
+    
+    .footer__inputs{
+        flex-wrap: wrap;
+    }
+
+    .footer__input{
+        flex-basis: 100%;
+        margin: 0;
+        margin-bottom: 16px;
+    }
+
+    .footer__submit{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 500px){
+    .hero__title{
+        font-size: 2rem;
+    }
+
+    .hero__paragraph{
+       
+    }
+    
+    .subtitle{
+        font-size: 1.8rem;
+    }
+
+    .knowledge__paragraph{
+        
+    }
+    
+    
+    .ropa{
+        --padding-container: 60px;
+    }
+
+    .ropa__container{
+        grid-template-columns: 28px 1fr 28px;
+        gap: .9em;
+    }
+
+    .ropa__arrow{
+        width: 100%;
+        
+    }
+
+    .ropa__course{
+        margin-top: 30px;
+    }
+
+    .ropa__img{
+        width: 150px;
+        height: 150px;
+        margin-left: 30px;
+    }
+
+    .ropa__review{
+        font-size: 12px;
+    }
+
+    .btn1{
+        
+    }
+
+    .subtitle2{
+        font-size: 12px;
+        color: #e5e5f7;
+        text-align: center;
+        display: flex;
     }
 
     .footer__title{
