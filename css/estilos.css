@@ -371,6 +371,10 @@ overflow: hidden;
     background-color: aliceblue;
 }
 
+.subtitle2{
+    color: #fff;
+}
+
 .ropa .subtitle{
     text-align: center;
     display: flex;
