@@ -3,74 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PSIKOCLOTHES - Prueba!</title>
-
-    <link rel="stylesheet" href="css/style.css">
-
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>PSIKOCLOTHES</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    
+    <!---header-->
     <header>
-        <a href="#" class="logo">PSIKOCLOTHES</a>
-        <ul>
-            <li><a href="#" class="active">Inicio</a></li>
-            <li><a href="#">Sobre Nosotros</a></li>
-            <li><a href="#">Productos</a></li>
-            <li><a href="#">Contacto</a></li>
+        <a href="#" class="logo"><i class='bx bxs-radiation'></i>PSIKOCLOTHES</a>
+
+        <ul class="navlist">
+            <li><a href="#" class="activo">Inicio</a></li>
+            <li><a href="#" class="">Sobre Nosotros</a></li>
+            <li><a href="#" class="">Ropa</a></li>
+            <li><a href="#" class="">Pago</a></li>
+            <li><a href="#" class="">Contacto</a></li>
         </ul>
+
+        <div class="h-main">
+            <a href="#" class="h-btn">Comprar ya!</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+            <div class="bx bx-moon" id="darkmode"></div>
+        </div>
     </header>
-    <section>
-        <img src="stars.png" id="stars">
-        <img src="moon.png" id="moon">
-        <img src="mountains_behind.png" id="mountains_behind">
-        <h2 id="texto">PSIKOCLOTHES</h2>
-        <a href="#sec" id="btn">Explorar</a>
-        <img src="mountains_front.png" id="mountains_front">
-    </section>
-    <div class="sec" id="sec">
-        <h2>Sobre PSIKOCLOTHES</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque debitis, totam aperiam aliquam 
-            fugiat natus reprehenderit id molestias aspernatur ut ullam quasi 
-            veritatis quaerat ad nulla excepturi odio quo velit!. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati sequi accusantium quasi quod beatae, 
-            voluptates aliquid vero explicabo quas aspernatur nobis omnis unde facere rerum fuga, minus voluptate corporis. Odit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quia commodi, ipsa odio obcaecati provident fugiat reiciendis laborum? Sint ullam blanditiis eligendi quam possimus pariatur dicta quidem accusamus fugit sunt?<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque debitis, totam aperiam aliquam 
-            fugiat natus reprehenderit id molestias aspernatur ut ullam quasi 
-            veritatis quaerat ad nulla excepturi odio quo velit!. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati sequi accusantium quasi quod beatae, 
-            voluptates aliquid vero explicabo quas aspernatur nobis omnis unde facere rerum fuga, minus voluptate corporis. Odit.
-            <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque debitis, totam aperiam aliquam 
-            fugiat natus reprehenderit id molestias aspernatur ut ullam quasi 
-            veritatis quaerat ad nulla excepturi odio quo velit!. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati sequi accusantium quasi quod beatae, 
-            voluptates aliquid vero explicabo quas aspernatur nobis omnis unde facere rerum fuga, minus voluptate corporis. Odit.
-            <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque debitis, totam aperiam aliquam 
-            fugiat natus reprehenderit id molestias aspernatur ut ullam quasi 
-            veritatis quaerat ad nulla excepturi odio quo velit!. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati sequi accusantium quasi quod beatae, 
-            voluptates aliquid vero explicabo quas aspernatur nobis omnis unde facere rerum fuga, minus voluptate corporis. Odit.
-            <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque debitis, totam aperiam aliquam 
-            fugiat natus reprehenderit id molestias aspernatur ut ullam quasi 
-            veritatis quaerat ad nulla excepturi odio quo velit!. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati sequi accusantium quasi quod beatae, 
-            voluptates aliquid vero explicabo quas aspernatur nobis omnis unde facere rerum fuga, minus voluptate corporis. Odit.
-        </p>
-    </div>
 
-    <script>
-        let stars = document.getElementById(`stars`);
-        let moon = document.getElementById(`moon`);
-        let mountains_behind = document.getElementById(`mountains_behinds`);
-        let texto = document.getElementById(`texto`);
-        let btn = document.getElementById(`btn`);
-        let mountains_front = document.getElementById(`mountains_front`);
-        let header = document.querySelector(`header`);
 
-        window.addEventListener(`scroll`, function(){
-            let value = window.scrollY;
-            stars.style.left = value * 0.25 + `px`;
-            moon.style.top = value * 1.5 + `px`;
-            texto.style.marginRight = value * 4 + `px`;
-            btn.style.marginTop = value * 1.5 + `px`;
-            mountains_behind.style.top = value * 0.5 + `px`;
-            mountains_front.style.top = value * 0 + `px`; 
-            header.style.top = value * 0.50 + `px`;
-           
-        })
-    </script>
+    <!---Js link-->
+    <script src="js/script.js"></script>
+
+
+
 </body>
 </html>
